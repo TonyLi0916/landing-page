@@ -74,14 +74,48 @@ button {
 
 .image-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .info {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    padding-bottom: 40px;
 }
+
+figcaption {
+    font-size: 18px;
+}
+
+.content {
+    margin: 50px;
+    padding: 50px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 50px 0px;
+    padding: 100px;
+}
+
+.main-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 450px;
+}
+
+
